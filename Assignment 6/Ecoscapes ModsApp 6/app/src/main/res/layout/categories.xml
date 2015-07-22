@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ ! Excerpted from "Hello, Android",
+ ! published by The Pragmatic Bookshelf.
+ ! Copyrights apply to this code. It may not be used to create training material,
+ ! courses, books, articles, and the like. Contact us if you are in doubt.
+ ! We make no guarantees that this code is fit for any purpose.
+ ! Visit http://www.pragmaticprogrammer.com/titles/eband3 for more book information.
+-->
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/categories"
+    android:gravity="center"
+    android:padding="30dip">
+
+    <Button
+        android:id="@+id/fish_button"
+        android:layout_width="384dp"
+        android:layout_height="170dp"
+        android:text="Fish"
+        android:layout_x="85dp"
+        android:layout_y="129dp"
+        android:textSize="60dp"
+        android:background="@null" />
+    <Button
+        android:id="@+id/invertebrate_button"
+        android:layout_width="375dp"
+        android:layout_height="169dp"
+        android:text="Invertebrate"
+        android:layout_x="83dp"
+        android:layout_y="375dp"
+        android:background="@null"
+        android:textSize="60dp" />
+    <Button
+        android:id="@+id/coral_button"
+        android:layout_width="383dp"
+        android:layout_height="166dp"
+        android:text="Coral"
+        android:layout_x="83dp"
+        android:layout_y="617dp"
+        android:background="@null"
+        android:textSize="60dp" />
+
+    </AbsoluteLayout>

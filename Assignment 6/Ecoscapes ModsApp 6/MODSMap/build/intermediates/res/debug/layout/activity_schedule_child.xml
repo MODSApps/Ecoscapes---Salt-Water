@@ -1,0 +1,13 @@
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="60dp"
+    android:layout_marginLeft="5dp"
+    android:background="#CCFF99"
+    android:gravity="center_vertical"
+    android:padding="10dp"
+    android:textColor="#000000"
+    android:textSize="15sp"
+    android:textStyle="bold" />
+<!-- From: file:/C:/Users/Roelle/Documents/Ecoscapes%20ModsApp%203/MODSMap/src/main/res/layout/activity_schedule_child.xml -->

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.modsexplorer"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.NFC" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <intent-filter>
+            <action android:name="android.nfc.action.TECH_DISCOVERED" />
+        </intent-filter>
+        <intent-filter>
+            <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+        </intent-filter>
+        <intent-filter>
+            <action android:name="android.nfc.action.TAG_DISCOVERED" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+
+        <activity
+            android:name="com.example.modsexplorer.WelcomeScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.modsexplorer.MainMenuScreen"
+            android:label="@string/main_menu"
+            android:screenOrientation="locked" />
+        <activity
+            android:name="com.example.modsexplorer.SignUpScreen"
+            android:label="@string/sign_up"
+            android:parentActivityName="com.example.modsexplorer.WelcomeScreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.modsexplorer.WelcomeScreen" />
+        </activity>
+        <activity
+            android:name="com.example.modsexplorer.LogInScreen"
+            android:label="@string/log_in"
+            android:parentActivityName="com.example.modsexplorer.WelcomeScreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.modsexplorer.WelcomeScreen" />
+        </activity>
+        <activity
+            android:name="com.example.modsexplorer.Schedule"
+            android:label="@string/schedule"
+            android:parentActivityName="com.example.modsexplorer.MainMenuScreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.modsexplorer.MainMenuScreen" />
+        </activity>
+        <activity
+            android:name="com.example.modsexplorer.MODSExplorerMap"
+            android:label="@string/schedule"
+            android:parentActivityName="com.example.modsexplorer.MainMenuScreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.modsexplorer.MainMenuScreen" />
+        </activity>
+        <activity
+            android:name="com.example.modsexplorer.NFCMODSREAD"
+            android:label="@string/nfc" />
+        <activity
+            android:name="com.example.modsexplorer.MODSExplorerStickers"
+            android:label="@string/stickers" />
+
+        <receiver android:name="com.example.modsexplorer.MyBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="com.deitel.flagquiz" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

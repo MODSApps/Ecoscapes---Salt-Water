@@ -1,0 +1,14 @@
+<menu 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.modsexplorer.SignUpScreen" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+
+</menu>
+<!-- From: file:/C:/Users/Roelle/Documents/Ecoscapes%20ModsApp%203/MODSMap/src/main/res/menu/signupscreen.xml -->

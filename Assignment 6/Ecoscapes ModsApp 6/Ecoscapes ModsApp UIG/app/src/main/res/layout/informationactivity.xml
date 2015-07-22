@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ ! Excerpted from "Hello, Android",
+ ! published by The Pragmatic Bookshelf.
+ ! Copyrights apply to this code. It may not be used to create training material,
+ ! courses, books, articles, and the like. Contact us if you are in doubt.
+ ! We make no guarantees that this code is fit for any purpose.
+ ! Visit http://www.pragmaticprogrammer.com/titles/eband3 for more book information.
+-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dip"
+    android:background="@drawable/about">
+    <TextView
+        android:id="@+id/about_content"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:text="This app was created to provide a fun experience for museum visitors. It provides information on the Saltwater portion of Ecoscapes and the different organisms that inhabit it, access to two games created by museum developers, and interviews with people who work behind the scenes of this beautiful exhibit."
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true" />
+</RelativeLayout>

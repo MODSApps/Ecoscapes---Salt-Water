@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ ! Excerpted from "Hello, Android",
+ ! published by The Pragmatic Bookshelf.
+ ! Copyrights apply to this code. It may not be used to create training material,
+ ! courses, books, articles, and the like. Contact us if you are in doubt.
+ ! We make no guarantees that this code is fit for any purpose.
+ ! Visit http://www.pragmaticprogrammer.com/titles/eband3 for more book information.
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/oceany1"
+    android:gravity="center"
+    android:padding="30dip">
+
+    <TextView
+        android:text="Saltwater Sidekicks"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="25dip"
+        android:textSize="24.5sp"
+        android:id="@+id/start_button"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:id="@+id/fish_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Fishes" />
+    <Button
+        android:id="@+id/invertebrate_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Invertebrates" />
+    <Button
+        android:id="@+id/coral_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Coral" />
+
+    </LinearLayout><!-- From: file:/C:/Program%20Files/Ecoscapes%20ModsApp%20UIG/app/src/main/res/layout/categories.xml -->

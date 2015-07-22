@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"	
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent"
+	android:background="@drawable/background3">
+	
+	
+	<TextView
+		android:id="@+id/yourscore"
+		android:textColor="#ffbe0c00"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="275dip"
+		android:layout_marginTop="1dip"
+		android:textStyle="bold"
+		android:textSize="50dp"
+		android:layout_alignEnd="@+id/question">
+	</TextView>
+
+	<TextView
+		android:id="@+id/question" 
+	     android:textColor="#ff000000"
+	     android:layout_height="wrap_content" 
+	     android:layout_width="wrap_content"
+	     android:paddingLeft="65dip"
+	     android:paddingTop="75dip" 
+	     android:paddingRight = "25dip"
+	     android:layout_marginRight="50dip"
+		android:textSize="30dp"
+		android:layout_below="@+id/yourscorelabel"
+		android:layout_centerHorizontal="true">
+    </TextView>
+    
+    <TextView
+		android:id="@+id/yourscorelabel"
+		android:text="Your score:"
+		android:textColor="#ffbe0c00"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="189dip"
+		android:textStyle="bold"
+		android:textSize="40dp"
+		android:layout_alignParentTop="true"
+		android:layout_alignEnd="@+id/pressabuttonlabel">
+	</TextView>
+	
+	<TextView
+		android:id="@+id/pressabuttonlabel"
+		android:text="Select the correct answer above"
+		android:textColor="#ffffffff"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="50dip"
+		android:textStyle="bold"
+		android:layout_centerHorizontal="true"
+		android:layout_marginBottom="43dp">
+	</TextView>
+
+	<Button
+		android:layout_width="193dp"
+		android:layout_height="193dp"
+		android:id="@+id/answer1button"
+		android:background="@drawable/buttonforanswer2"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentEnd="true"
+        android:layout_x="339dp"
+        android:layout_y="473dp" />
+	<Button
+		android:layout_width="193dp"
+		android:layout_height="193dp"
+		android:id="@+id/answer2button"
+		android:background="@drawable/buttonforanswer2"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentEnd="true"
+		android:layout_x="339dp"
+		android:layout_y="220dp" />
+	<Button
+		android:layout_width="193dp"
+		android:layout_height="193dp"
+		android:id="@+id/answer3button"
+		android:background="@drawable/buttonforanswer2"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentEnd="true"
+		android:layout_x="37dp"
+		android:layout_y="236dp" />
+	<Button
+		android:layout_width="193dp"
+		android:layout_height="193dp"
+		android:id="@+id/answer4button"
+		android:background="@drawable/buttonforanswer2"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentEnd="true"
+		android:layout_x="43dp"
+		android:layout_y="516dp" />
+	<Button
+		android:layout_width="193dp"
+		android:layout_height="193dp"
+		android:id="@+id/nextquestion"
+		android:background="@drawable/buttonforanswer2"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentEnd="true"
+		android:layout_x="224dp"
+		android:layout_y="546dp" />
+
+
+
+
+</AbsoluteLayout>

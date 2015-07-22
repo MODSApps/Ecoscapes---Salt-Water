@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dip"
+    android:background="@drawable/game">
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Answer Choice"
+        android:id="@+id/button5"
+        android:layout_alignTop="@+id/button3"
+        android:layout_toLeftOf="@+id/button4"
+        android:layout_x="245dp"
+        android:layout_y="620dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Answer Choice"
+        android:id="@+id/button5"
+        android:layout_alignTop="@+id/button3"
+        android:layout_toLeftOf="@+id/button4"
+        android:layout_x="80dp"
+        android:layout_y="620dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Answer Choice"
+        android:id="@+id/button5"
+        android:layout_alignTop="@+id/button3"
+        android:layout_toLeftOf="@+id/button4"
+        android:layout_x="410dp"
+        android:layout_y="620dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_x="220dp"
+        android:layout_y="310dp"
+        android:text="Exampe Question" />
+
+
+</AbsoluteLayout>

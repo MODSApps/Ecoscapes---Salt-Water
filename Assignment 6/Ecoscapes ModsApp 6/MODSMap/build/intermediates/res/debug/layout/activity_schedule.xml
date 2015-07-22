@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+            <ExpandableListView
+                android:id="@+id/list"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:groupIndicator="@null" />   
+
+</LinearLayout>
+<!-- From: file:/C:/Users/Roelle/Documents/Ecoscapes%20ModsApp%203/MODSMap/src/main/res/layout/activity_schedule.xml -->

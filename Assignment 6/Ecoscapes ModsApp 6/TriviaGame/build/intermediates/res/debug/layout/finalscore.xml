@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" 
+	android:layout_width="fill_parent" android:background="@drawable/background3">
+	
+	<TextView
+		android:id="@+id/finalscoreimage"
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content"
+		android:layout_marginRight="150dip"
+		android:layout_marginTop = "15dip"
+		android:layout_marginLeft="5dip" >
+	</TextView>
+	
+	<TextView
+		android:id="@+id/finalscore"
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:layout_marginTop="75dip"
+		android:layout_marginLeft="240dip"
+		android:textStyle="bold" 
+		android:textColor="#ff000000"
+		android:textSize="40dp">
+	</TextView>
+	
+	<TextView
+		android:id="@+id/finalmessage"
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:layout_marginTop="169dip"
+		android:layout_marginLeft="175dip"
+		android:layout_marginRight="13dip"
+		android:textStyle="bold" 
+		android:textColor="#ff000000"
+		android:textSize="40dp">
+	</TextView>
+	
+
+	<Button
+		android:id="@+id/buttonnewgame"
+		android:text="New Game"		
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_marginLeft="95dip"
+		android:background="@drawable/buttontoexit2" 
+		android:textStyle="bold"
+		android:layout_centerVertical="true"
+		android:layout_toEndOf="@+id/finalscoreimage">
+	</Button>
+
+</RelativeLayout>
+	
+<!-- From: file:/C:/Users/Roelle/Documents/Ecoscapes%20ModsApp%203/TriviaGame/src/main/res/layout/finalscore.xml -->
